@@ -51,7 +51,7 @@
   <sect2 xml:id="ceph.cephfs.mdf.add">
    <title>Adding a Metadata Server</title>
    <para>
-    After you deploy OSDs and monitors, you can deploy metadata servers.
+    After you deploy OSDs sand monitors, you can deploy metadata servers.
     Although MDS service can share a node with an OSD and/or monitor
     service, you are encouraged to deploy it on a separate cluster node for
     performance reasons.
